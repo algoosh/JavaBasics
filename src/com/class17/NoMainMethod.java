@@ -11,6 +11,7 @@ public class NoMainMethod {
 		System.out.println("hello");
 		System.out.println("");
 		System.out.println("hello");
+		
 		System.out.println();// all lines will printed then jump to line#26 and will look for a match
 	}
 

@@ -1,12 +1,8 @@
 package com.class16;
 
-
-
 public class Computer {
 
 	// we need define futures and attributes
-
-	String Window;
 
 	int screen, memory, ram;
 
@@ -14,19 +10,15 @@ public class Computer {
 
 	String os;
 
+	public static void main(String[] args) {
 
+		Computer comp1 = new Computer();// we just create an object "comp1" in class "Computer"
 
-	public static void main(System[] args) {
-
-
-
-		Computer comp1 = new Computer();//we just create an object "comp1" in class "Computer"
+		comp1.os = "Window";
 
 		comp1.screen = 2;
 
 		comp1.ram = 8;
-
-		comp1.os = "Window";
 
 		comp1.memory = 2;
 
@@ -34,38 +26,34 @@ public class Computer {
 
 		comp1.mouse = true;
 
-     System.out.println("My computer had memory "+ comp1.memory);
+		System.out.println("My computer had memory " + comp1.memory);
 
-	
+		// Define behave;
 
-		//Define behave;
+		comp1.watchMovies();
 
-				comp1.watchMovies();
+		comp1.browse();
 
-				comp1.browse();
-
-				comp1.listenMusic();
-
-	
+		comp1.listenMusic();
 
 	}
 
-			void watchMovies() {
+	void watchMovies() {
 
-				System.out.println("i can watch movies");
-
-			}
-
-			void listenMusic() {
-
-				System.out.println("i can listen");
-
-			}void browse() {
-
-				System.out.println("i can browse");
+		System.out.println("i can watch movies");
 
 	}
 
-	
+	void listenMusic() {
+
+		System.out.println("i can listen");
+
+	}
+
+	void browse() {
+
+		System.out.println("i can browse");
+
+	}
 
 }
