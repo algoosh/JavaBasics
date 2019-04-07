@@ -12,15 +12,17 @@ public class Carculater {
 		return a+b;
 	}
 
-	void sub() {
-		System.out.println();
+	public int sub(int a,int b) {
+		return a-b;
+	
 	}
 
-	void div() {
-		System.out.println();
+	public int div(int a,int b) {
+		return a/b;
 	}
 
-	void mult() {
-		System.out.println();
+	public 
+	int mult(int a,int b) {
+		return a*b;
 	}
 }

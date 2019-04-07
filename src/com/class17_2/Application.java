@@ -8,7 +8,6 @@ public class Application {
 		Carculater obj= new Carculater();
 		System.out.println(obj.sum(4, 3));
 		
+	
 
-	}
-
-}
+}}
