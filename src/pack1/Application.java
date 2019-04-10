@@ -1,9 +1,15 @@
 package pack1;
 
 public class Application {
+int[] array= {1,2,3,4,5,6,7,8,9};
 
 	public static void main(String[] args) {
-		Animal types=new Animal();
+		//Minimum num=new Minimum();
+	//	num.minOfValues();
+	//	System.out.println(num.array[]);
+		
+		
+		/*Animal types=new Animal();
 		
 System.out.println(types.age);
 System.out.println(types.breed);
@@ -27,4 +33,5 @@ System.out.println(types3.age);
 System.out.println(types3.breed);
 System.out.println(types3.weight);
 System.out.println(types3.name);
+}}*/
 }}

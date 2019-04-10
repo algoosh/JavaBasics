@@ -1,5 +1,7 @@
 package com.class3;
 
+import pack1.ClassB;
+
 public class ConcatAndOperator {
 	public static void main(String[] args) {
 // we will have to intinges and 2 stings
