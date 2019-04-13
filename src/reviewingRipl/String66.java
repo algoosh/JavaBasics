@@ -106,11 +106,11 @@ If browser is Ie---->Proceed with ie Browser
 If any other browser ----->Invalid Browser*/
 		System.out.println("Enter the name of a Browser");
 String br=scan.next();
-if (br.equals("ChRoME")) {
+if (br.equalsIgnoreCase("ChRoME")) {
 	System.out.println("Proceed with chrome Browser");
-} else if (br.equals("FireFOX")) {
+} else if (br.equalsIgnoreCase("FireFOX")) {
 	System.out.println("Proceed with firefox Browser");
-} else if (br.equals("Ie")) {
+} else if (br.equalsIgnoreCase("Ie")) {
 	System.out.println("Proceed with ie Browser");
 
 } else {
