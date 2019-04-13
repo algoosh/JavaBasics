@@ -20,9 +20,11 @@ public static void main(String[] args) {
 	emp2.salary=70000;
 	
 	emp1.eID=001;
+	CEO="Azel";
 	emp2.eID=002;
 	
 	emp1.inforOfEmp1();
+	//CEO="Azel";
 	emp2.inforOfEmp1();
 	
 }

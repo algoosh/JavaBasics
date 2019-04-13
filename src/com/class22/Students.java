@@ -13,6 +13,8 @@ public class Students {
 
 		System.out.println("the avarage of a grade is " + avarage);
 		return avarage;
+		
+		//done
 	}
 
 }
