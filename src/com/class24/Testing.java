@@ -22,6 +22,7 @@ public class Testing {
 		Parent obj=new Child();
 		obj.work();//Parents work
 		obj.love();//Child love--common method
+		
 		//obj.cry();not accessible
 	}
 }
