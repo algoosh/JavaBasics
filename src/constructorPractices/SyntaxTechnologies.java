@@ -12,5 +12,8 @@ public class SyntaxTechnologies {
 		System.out.println(schoolName+" "+batch+" "+year+" "+lastDayOfClass);
 		
 	}
-	
+	public static void main(String[] args) {
+		SyntaxTechnologies obj=new SyntaxTechnologies();
+		
+	}
 }
