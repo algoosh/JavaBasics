@@ -1,5 +1,8 @@
 package com.class29;
 
+/*SETTERS AND GETTERS//RIGHTCLICK,SOURSE,ADD SETTERS AND GETTERS//ALL OR SOME
+ * 
+ */
 public class ABC {
 	
 	private int a;
