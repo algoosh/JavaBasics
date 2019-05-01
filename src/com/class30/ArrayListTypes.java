@@ -17,6 +17,7 @@ public class ArrayListTypes {
 		ArrayList alist=new ArrayList();
 		alist.add("String");//String
 		alist.add(100);//Integer 
+		
 		alist.add(100.10);//Double
 		alist.add(true);// Boolean
 		alist.add('a');// Character

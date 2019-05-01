@@ -1,6 +1,5 @@
 package com.class28;
 
-
 public abstract class Vehicle {
 	static int vehicleCount;
 	
