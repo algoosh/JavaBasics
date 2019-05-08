@@ -1,8 +1,8 @@
-package com.class31;
+package interviewQuestions;
 
 import java.util.ArrayList;
 
-public class Task3 {
+public class HasOrNotHasAndReplace {
 	/*
 	 * Create an arrayList of drinks. If any drink has letter “a” or “e” replace
 	 * it with water.
