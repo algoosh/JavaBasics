@@ -15,24 +15,33 @@ public static void main(String[] args) {
         names.add("Nick");
         names.add("Sam");
         names.add("Mimi");
-        
-        if (names.size()==0) {
-            System.out.println("empty");
+        if(names.size()==0) {
+        	System.out.println("empty");
         }else {
-            System.out.println("not empty");
+        	System.out.println("not empty");
         }
-        
-        
-        System.out.println(names.isEmpty());
-        
-        if (names.contains("Jack")) {
-            System.out.println("Contains this name");
+        if(names.contains("Sam")) {
+        	System.out.println(names.get(3));
         }else {
-            System.out.println("not contains this name");
+        	System.out.println("not contains ");
         }
-        for (int a=0;a<names.size();a++) {
-            System.out.println(names.get(a));
-        }
+        
+//        if (names.size()==0) {
+//            System.out.println("empty");
+//        }else {
+//            System.out.println("not empty");
+//        }
+//        
+//        System.out.println(names.isEmpty());
+//        
+//        if (names.contains("Jack")) {
+//            System.out.println("Contains this name");
+//        }else {
+//            System.out.println("not contains this name");
+//        }
+//        for (int a=0;a<names.size();a++) {
+//            System.out.println(names.get(a));
+//        }
     }
     
 //needs to review!
